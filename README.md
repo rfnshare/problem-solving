@@ -13,7 +13,7 @@ A repository to contain my submissions in various online judges.
         <tr>
             <td>1000</td>
             <td>Hello World!</td>
-            <td><a href="">[Link]</a></td>
+            <td><a href="/src/lecture_online/hello_world.c">[Link]</a></td>
         </tr>
         <tr>
             <td>1001</td>
