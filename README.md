@@ -11,14 +11,29 @@ A repository to contain my submissions in various online judges.
             <th>Solution</th>
         </tr>
         <tr>
-            <td>1000</td>
+            <td>0000</td>
             <td>Hello World!</td>
-            <td><a href="">[Link]</a></td>
+            <td><a href="/src/lecture_online/hello_world.c">[Link]</a></td>
         </tr>
         <tr>
-            <td>1001</td>
+            <td>0001</td>
             <td>Extremely Basic</td>
-            <td><a href="">[Link]</a></td>
+            <td><a href="/src/lecture_online/constants.c">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td>Odd Even</td>
+            <td><a href="/src/lecture_online/odd_even.c">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Factor</td>
+            <td><a href="/src/lecture_online/factor.c">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0004</td>
+            <td>Prime Composite</td>
+            <td><a href="/src/lecture_online/prime_composite.c">[Link]</a></td>
         </tr>
     </table>
 </details>
