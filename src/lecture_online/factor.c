@@ -1,3 +1,6 @@
+// Author: Abdullah Al Faroque
+// Date: 05/10/2022
+/* Program for Divisor Counting */
 #include <stdio.h>
 void main()
 {

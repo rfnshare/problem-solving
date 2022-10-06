@@ -1,35 +1,24 @@
+// Author: Abdullah Al Faroque
+// Date: 06/10/2022
+/* Determine n is prime or composite */
 #include <stdio.h>
+#include <math.h>
 void main()
 {
     int a;
     scanf("%d", &a);
-    for(int i=1; i<a+1; i++)
+    int r = sqrt(a);
+    for(int i=2; i<=r; i++)
     {
-        if(a%i==0)
+        if (a%i==0)
         {
-            if (i!= 1)
-            {
-                if (i!=a)
-                {
-                    printf("Composite Number\n");
-                    break;
-                }
-                else
-                {
-                    printf("Prime Number\n");
-                }
-            }
-            else
-            {
-                if(i==a)
-                {
-                    printf("Neither\n");
-                }
-                else if(i == 1)
-                {
-                    continue;
-                }
-            }
+            printf("Composite Number");
+            break;
+        }
+        if (i==r)
+        {
+            printf("Prime Number");
+
         }
     }
 
