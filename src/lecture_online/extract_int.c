@@ -17,7 +17,7 @@ void main()
     }
     while(floor(a)!=0);
 // Bug-> Can't calculate length over 9
-    printf("Length %d\n", c);
+    printf("Length is %d\n", c);
     for(i=0; i<c; i++)
     {
         int b = floor(d/pow(10,i));

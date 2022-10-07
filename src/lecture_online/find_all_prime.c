@@ -1,6 +1,7 @@
 // Author: Abdullah Al Faroque
 // Date: 06/10/2022
 /* Find n number of prime */
+// Version 1.0
 #include <stdio.h>
 
 #include <math.h>
