@@ -35,6 +35,11 @@ A repository to contain my submissions in various online judges.
             <td>Prime Composite</td>
             <td><a href="/src/lecture_online/prime_composite.c">[Link]</a></td>
         </tr>
+        <tr>
+            <td>0004</td>
+            <td>Get All Prime Number</td>
+            <td><a href="/src/lecture_online//find_all_prime.c">[Link]</a></td>
+        </tr>
     </table>
 </details>
 <details>
