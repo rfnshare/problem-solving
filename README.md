@@ -40,6 +40,41 @@ A repository to contain my submissions in various online judges.
             <td>Get All Prime Number</td>
             <td><a href="/src/lecture_online//find_all_prime.c">[Link]</a></td>
         </tr>
+        <tr>
+            <td>0006</td>
+            <td>Digit Extraction</td>
+            <td><a href="/src/lecture_online/extract_int.c">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0007</td>
+            <td>Sieve Of Eratosthenes</td>
+            <td><a href="">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0008</td>
+            <td>GCD(Naive)</td>
+            <td><a href="">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0009</td>
+            <td>GCD(Euiclidien)</td>
+            <td><a href="">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0010</td>
+            <td>LCM(Naive)</td>
+            <td><a href="">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0011</td>
+            <td>LCM(Formula)</td>
+            <td><a href="">[Link]</a></td>
+        </tr>
+        <tr>
+            <td>0012</td>
+            <td>Factorial</td>
+            <td><a href="">[Link]</a></td>
+        </tr>
     </table>
 </details>
 <details>
