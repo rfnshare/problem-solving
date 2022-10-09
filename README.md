@@ -27,7 +27,7 @@ A repository to contain my submissions in various online judges.
         </tr>
         <tr>
             <td>0003</td>
-            <td>Factor</td>
+            <td>Find All Divisors</td>
             <td><a href="/src/lecture_online/factor.c">[Link]</a></td>
         </tr>
         <tr>
