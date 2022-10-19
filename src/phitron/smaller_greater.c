@@ -9,18 +9,13 @@ int main()
     {
         printf("Large Number is %d", x);
     }
+    else if(x<y)
+    {
+        printf("Large Number is %d", y);
+    }
     else
     {
-        if(x<y)
-        {
-            printf("Large Number is %d", y);
-        }
-        else
-        {
-            printf("They are equal");
-        }
-
-
+        printf("They are equal");
     }
     return 0;
 }
