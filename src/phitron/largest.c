@@ -14,9 +14,13 @@ int main()
         printf("Large Number is %d", y);
 
     }
-    else
+    else if(z>x && z>y)
     {
         printf("Large Number is %d", z);
+    }
+    else
+    {
+        printf("They are equal");
     }
     return 0;
 }
