@@ -8,7 +8,15 @@ int main()
     scanf("%d", &w);
     if(w%2==0 && 2<w)
     {
-        printf("Possible");
+        int r = w/2;
+        if(r%2==0)
+        {
+            printf("Possible");
+        }
+        else
+        {
+            printf("Not Possible");
+        }
     }
     else
     {
