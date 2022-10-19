@@ -6,17 +6,9 @@ int main()
     int w;
     printf("Enter watermelon Weight: ");
     scanf("%d", &w);
-    if(w%2==0 && 2<w)
+    if(w%4==0 && 2<w)
     {
-        int r = w/2;
-        if(r%2==0)
-        {
-            printf("Possible");
-        }
-        else
-        {
-            printf("Not Possible");
-        }
+        printf("Possible");
     }
     else
     {
