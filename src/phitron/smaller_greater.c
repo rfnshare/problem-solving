@@ -11,7 +11,15 @@ int main()
     }
     else
     {
-        printf("Large Number is %d", y);
+        if(x<y)
+        {
+            printf("Large Number is %d", y);
+        }
+        else
+        {
+            printf("They are equal");
+        }
+
 
     }
     return 0;
