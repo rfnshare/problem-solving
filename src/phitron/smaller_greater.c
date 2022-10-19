@@ -1,4 +1,5 @@
 #include<stdio.h>
+// find out the biggest number
 int main()
 {
     int x,y;
