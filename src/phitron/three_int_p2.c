@@ -18,7 +18,22 @@ int main()
     }
     else
     {
-        printf("They are equal");
+        if (a==b && a==c)
+        {
+            printf("They are equal");
+        }
+        else if(a==b)
+        {
+            printf("A and B both are bigger");
+        }
+        else if(a==c)
+        {
+            printf("A and C both are bigger");
+        }
+        else
+        {
+            printf("B and C both are bigger");
+        }
     }
     return 0;
 }
