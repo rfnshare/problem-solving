@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int c=0;
-    for(int i=1; i<=10; i++)
+    int a;
+    scanf("%d", &a);
+    for(int i=1; i<=a; i++)
     {
-        c += i;
+        printf("%d ",i);
     }
-    printf("%d ",c);
+    
 }
