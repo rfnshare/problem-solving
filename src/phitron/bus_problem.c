@@ -4,10 +4,13 @@ int main()
 {
     int n,w, sum=0;;
     scanf("%d", &n);
-    for (int i=1; i<=n; i++)
+    int i = 1;
+    while (i<=n)
     {
         scanf("%d", &w);
         sum += w;
+        ++i;
     }
+    
     printf("Sum of weights %d", sum);
 }
