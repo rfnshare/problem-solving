@@ -1,31 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int n, m, count = 0;
-    scanf("%d%d", &n, &m);
-
-    for (int i = 1; i <= n; i++)
+    long long int n, m, odd, even;
+    scanf("%lld%lld", &n, &m);
+    odd = n / 2 + (n % 2 != 0);
+    if (m <= odd)
     {
-
-        if (i % 2 != 0)
-        {
-            count++;
-            if (count == m)
-            {
-                printf("%d ", i);
-            }
-        }
+        odd = (m * 2) - 1;
     }
-    for (int i = 1; i <= n; i++)
+    else
     {
-
-        if (i % 2 == 0)
-        {
-            count++;
-            if (count == m)
-            {
-                printf("%d ", i);
-            }
-        }
+        even = m - odd;
+        even = even * 2;
+        odd = even;
     }
+    printf("%lld", odd);
 }
