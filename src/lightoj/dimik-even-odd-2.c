@@ -1,21 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int T, i, j, count=0;
-    double N;
-    scanf("%d", &T);
-    if (1 <= T <= 100)
+    int t, a[999];
+    scanf("%d", &t);
+    for (int i = 0; i < t; i++)
     {
-        for (i = 1; i <= T; i++)
-        {
-            scanf("%lf", &N);
-            do
-            {
-                N /= 10;
-                ++count;
-            } while (N != 0);
-            printf("%d\n", count);
-            count=0;
-        }
+        scanf("%s", &a);
+        printf("%d", sizeof(a)/sizeof(int));
+        // if ((int)a%2==0)
+        // {
+        //     printf("Even\n");
+        // }
+        // else
+        // {
+        //     printf("Odd\n");
+        // }
+        
     }
 }
