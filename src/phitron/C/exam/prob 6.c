@@ -2,20 +2,20 @@
 int main()
 {
     int m, n;
-    scanf("%d%d", &m, &n);
-    do
+    printf("Enter the first number: "); // 39
+    scanf("%d", &m);
+    printf("Enter the second number: "); // 13
+    scanf("%d", &n);
+    if (m % n == 0)
     {
-        if (n % 2 == 0)
-        {
-            printf("%d, ", n);
-            n /= 2;
-        }
-        else
-        {
-            printf("%d, ", n);
-            n -= 1;
-        }
-
-    } while (1 < n);
-    printf("%d", n);
+        printf("The first number is divisible by the second number.");
+    }
+    else if (n % m == 0)
+    {
+        printf("The second number is divisible by the first number.");
+    }
+    else
+    {
+        printf("None of them are divisible by the other.");
+    }
 }
