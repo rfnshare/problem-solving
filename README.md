@@ -38,7 +38,7 @@ A repository to contain my submissions in various online judges.
         <tr>
             <td>0005</td>
             <td>Get All Prime Number</td>
-            <td><a href="/src/lecture_online//find_all_prime.c">[Link]</a></td>
+            <td><a href="/src/lecture_online/find_all_prime.c">[Link]</a></td>
         </tr>
         <tr>
             <td>0006</td>
