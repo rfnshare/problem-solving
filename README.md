@@ -128,6 +128,16 @@ A repository to contain my submissions in various online judges.
     </table>
 </details>
 <details>
+    <summary><b>beecrowd</b></summary>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Problem Title</th>
+            <th>Solution</th>
+        </tr>
+    </table>
+</details>
+<details>
     <summary><b>CSES</b></summary>
     <table>
         <tr>
@@ -147,16 +157,7 @@ A repository to contain my submissions in various online judges.
         </tr>
     </table>
 </details>
-<details>
-    <summary><b>beecrowd</b></summary>
-    <table>
-        <tr>
-            <th>#</th>
-            <th>Problem Title</th>
-            <th>Solution</th>
-        </tr>
-    </table>
-</details>
+
 
 <details>
     <summary><b>CodeChef</b></summary>
