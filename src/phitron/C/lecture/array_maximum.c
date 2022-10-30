@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int arr[6] = {12, 7, 19, 26, 11, 6};
-    int max = arr[0];
+    int N=6;
+    int arr[N] ;
+    int max = 0;
     int min = arr[0];
 
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < N; i++)
     {
+        scanf("%d", &arr[i]);
 
         if (arr[i] > max)
         {
