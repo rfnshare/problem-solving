@@ -87,7 +87,7 @@ A repository to contain my submissions in various online judges.
         </tr>
         <tr>
             <th>1A</th>
-            <th>Theatre Square <a href="https://codeforces.com/problemset/problem/1/A">[Link]</a></th>
+            <th>Theatre Square <a href="https://codeforces.com/problemset/problem/1/A" target="_blank">[Link]</a></th>
             <td><a href="/src/codeforces/theatre square.c">[Link]</a></td>
         </tr>
         <tr>
