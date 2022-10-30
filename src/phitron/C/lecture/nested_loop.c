@@ -2,12 +2,25 @@
 int main()
 {
     int i, j;
-    for (i = 0; i < 3; i++)
+    i=0;
+    while (i<13)
     {
-        for (j = 0; j < 5; j++)
+        j=0;
+        while (j<15)
         {
-            printf("* ");
+            printf("*");
+            j++;
         }
         printf("\n");
+        i++;
     }
+    
+    // for (i = 0; i < 3; i++)
+    // {
+    //     for (j = 0; j < 5; j++)
+    //     {
+    //         printf("* ");
+    //     }
+    //     printf("\n");
+    // }
 }
