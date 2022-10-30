@@ -86,37 +86,37 @@ A repository to contain my submissions in various online judges.
             <th>Solution</th>
         </tr>
         <tr>
-            <th>0000</th>
+            <th>50A</th>
             <th>Domino Piling <a href="https://codeforces.com/problemset/problem/50/A">[Link]</a></th>
             <td><a href="/src/codeforces/domino_piling.c">[Link]</a></td>
         </tr>
         <tr>
-            <th>0001</th>
+            <th>617A</th>
             <th>Elephant <a href="https://codeforces.com/problemset/problem/617/A">[Link]</a></th>
             <td><a href="/src/codeforces/elephant.c">[Link]</a></td>
         </tr>
         <tr>
-            <th>0002</th>
+            <th>318A</th>
             <th>Even Odds <a href="https://codeforces.com/problemset/problem/318/A">[Link]</a></th>
             <td><a href="/src/codeforces/even odds.c">[Link]</a></td>
         </tr>
         <tr>
-            <th>0003</th>
+            <th>1754B</th>
             <th>Kevin and Permutation <a href="https://codeforces.com/problemset/problem/1754/B">[Link]</a></th>
             <td><a href="/src/codeforces/Kevin and Permutation.c">[Link]</a></td>
         </tr>
         <tr>
-            <th>0004</th>
+            <th>677A</th>
             <th>Vanya and Fence <a href="https://codeforces.com/problemset/problem/677/A">[Link]</a></th>
             <td><a href="/src/codeforces/vanya and fence.c">[Link]</a></td>
         </tr>
         <tr>
-            <th>0005</th>
+            <th>4A</th>
             <th>Watermelon <a href="https://codeforces.com/problemset/problem/4/A">[Link]</a></th>
             <td><a href="/src/codeforces/watermelon.c">[Link]</a></td>
         </tr>
         <tr>
-            <th>0006</th>
+            <th>977A</th>
             <th>Wrong Subtraction <a href="https://codeforces.com/problemset/problem/977/A">[Link]</a></th>
             <td><a href="/src/codeforces/wrong_subtraction.c">[Link]</a></td>
         </tr>
@@ -131,9 +131,14 @@ A repository to contain my submissions in various online judges.
             <th>Solution</th>
         </tr>
         <tr>
-            <th>0000</th>
+            <th>1068</th>
             <th>Weird Algorithm <a href="https://cses.fi/problemset/task/1068">[Link]</a></th>
             <td><a href="/src/cses/weird_algo.c">[Link]</a></td>
+        </tr>
+        <tr>
+            <th>1083</th>
+            <th>Missing Number <a href="https://cses.fi/problemset/task/1083">[Link]</a></th>
+            <td><a href="/src/cses/missing number.c">[Link]</a></td>
         </tr>
     </table>
 </details>
