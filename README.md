@@ -87,7 +87,7 @@ A repository to contain my submissions in various online judges.
         </tr>
         <tr>
             <th>1A</th>
-            <th>Theatre Square <a href="https://codeforces.com/problemset/problem/1/A" target="_blank">[Link]</a></th>
+            <th>Theatre Square <a href="https://codeforces.com/problemset/problem/1/A">[Link]</a></th>
             <td><a href="/src/codeforces/theatre square.c">[Link]</a></td>
         </tr>
         <tr>
@@ -128,6 +128,16 @@ A repository to contain my submissions in various online judges.
     </table>
 </details>
 <details>
+    <summary><b>beecrowd</b></summary>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Problem Title</th>
+            <th>Solution</th>
+        </tr>
+    </table>
+</details>
+<details>
     <summary><b>CSES</b></summary>
     <table>
         <tr>
@@ -147,16 +157,7 @@ A repository to contain my submissions in various online judges.
         </tr>
     </table>
 </details>
-<details>
-    <summary><b>beecrowd</b></summary>
-    <table>
-        <tr>
-            <th>#</th>
-            <th>Problem Title</th>
-            <th>Solution</th>
-        </tr>
-    </table>
-</details>
+
 
 <details>
     <summary><b>CodeChef</b></summary>
