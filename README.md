@@ -101,6 +101,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/domino_piling.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>71A</th>
+            <th>Way Too Long Words <a href="https://codeforces.com/problemset/problem/71/A">[Link]</a></th>
+            <td><a href="/src/codeforces/way too long words.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>318A</th>
             <th>Even Odds <a href="https://codeforces.com/problemset/problem/318/A">[Link]</a></th>
             <td><a href="/src/codeforces/even odds.c">[Link]</a></td>
