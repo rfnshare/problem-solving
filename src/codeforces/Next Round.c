@@ -1,15 +1,26 @@
 #include <stdio.h>
 int main()
 {
-    int n, k, a, count=0;
+    int n, k, count = 0, score[100], pos;
     scanf("%d%d", &n, &k);
-    for (int i = 0; i <n; i++)
+    for (int i = 0; i < n; i++)
     {
-        scanf("%d", &a);
-        if (k<a)
+        scanf("%d", &score[i]);
+    }
+    pos = score[k - 1];
+    for (int j = 0; j < n; j++)
+    {
+        if (0 < score[j])
         {
-            count++;
-        }  
+            if (pos <= score[j] && 0 < pos)
+            {
+                count++;
+            }
+            else if(pos <= score[j])
+            {
+                count++;
+            }
+        }
     }
     printf("%d", count);
 }
