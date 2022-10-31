@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int t, a[999];
-    scanf("%d", &t);
-    for (int i = 0; i < t; i++)
+    int T, i;
+    long long int N[101];
+    scanf("%d", &T);
+
+    for (i = 1; i <= T; i++)
     {
-        scanf("%s", &a);
-        printf("%d", sizeof(a)/sizeof(int));
-        // if ((int)a%2==0)
-        // {
-        //     printf("Even\n");
-        // }
-        // else
-        // {
-        //     printf("Odd\n");
-        // }
-        
+        scanf("%d", &N);
+        if (N[0] % 2 == 1)
+        {
+            printf("odd\n");
+        }
+        else
+        {
+            printf("even\n");
+        }
     }
 }
