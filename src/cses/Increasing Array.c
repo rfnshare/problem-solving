@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int N, x, i, k, count = 0;
+    int N, x, i, k;
+    long long count = 0;
     int arr[300000];
     scanf("%d", &N);
 
@@ -24,5 +25,5 @@ int main()
             }
         }
     }
-    printf("%d", count);
+    printf("%lld", count);
 }
