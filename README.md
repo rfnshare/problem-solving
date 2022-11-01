@@ -170,6 +170,11 @@ A repository to contain my submissions in various online judges.
             <th>Missing Number <a href="https://cses.fi/problemset/task/1083">[Link]</a></th>
             <td><a href="/src/cses/missing number.c">[Link]</a></td>
         </tr>
+        <tr>
+            <th>1094</th>
+            <th>Increasing Array <a href="https://cses.fi/problemset/task/1094">[Link]</a></th>
+            <td><a href="/src/cses/Increasing Array.c">[Link]</a></td>
+        </tr>
     </table>
 </details>
 
