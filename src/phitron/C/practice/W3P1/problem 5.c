@@ -2,6 +2,7 @@
 int main()
 {
     int i, j, k, N, arr[100], target, check;
+    char msg[10];
     scanf("%d", &N);
     for (i = 0; i < N; i++)
     {
@@ -12,7 +13,7 @@ int main()
     {
         for (k = 0; k < N; k++)
         {
-            if (arr[j] == arr[k])
+            if (j == k)
             {
                 continue;
             }
@@ -21,13 +22,21 @@ int main()
                 check = arr[j] + arr[k];
                 if (check == target)
                 {
-                    printf("YES");
+                    strcpy(msg, "YES");
+                    break;
                 }
                 else
                 {
-                    printf("NO");
+                    strcpy(msg, "NO");
+                    check = 0;
                 }
             }
         }
+        if (check == target)
+        {
+            strcpy(msg, "YES");
+            break;
+        }
     }
+    printf("%s", msg);
 }
