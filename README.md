@@ -96,6 +96,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/watermelon.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>25A</th>
+            <th>IQ test <a href="https://codeforces.com/problemset/problem/25/A">[Link]</a></th>
+            <td><a href="/src/codeforces/iq test.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>50A</th>
             <th>Domino Piling <a href="https://codeforces.com/problemset/problem/50/A">[Link]</a></th>
             <td><a href="/src/codeforces/domino_piling.c">[Link]</a></td>
