@@ -131,6 +131,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/vanya and fence.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>707A</th>
+            <th>Brain's Photos <a href="https://codeforces.com/contest/707/problem/A">[Link]</a></th>
+            <td><a href="/src/codeforces/Brain's Photos.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>977A</th>
             <th>Wrong Subtraction <a href="https://codeforces.com/problemset/problem/977/A">[Link]</a></th>
             <td><a href="/src/codeforces/wrong_subtraction.c">[Link]</a></td>
