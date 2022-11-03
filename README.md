@@ -136,6 +136,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/wrong_subtraction.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>1512A</th>
+            <th>Spy Detected! <a href="https://codeforces.com/contest/1512/problem/A">[Link]</a></th>
+            <td><a href="/src/codeforces/spy detected.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>1754B</th>
             <th>Kevin and Permutation <a href="https://codeforces.com/problemset/problem/1754/B">[Link]</a></th>
             <td><a href="/src/codeforces/Kevin and Permutation.c">[Link]</a></td>
