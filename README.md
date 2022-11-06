@@ -116,6 +116,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/Next Round.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>281A</th>
+            <th>Word Capitalization <a href="https://codeforces.com/problemset/problem/281/A">[Link]</a></th>
+            <td><a href="/src/codeforces/word capitalization.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>318A</th>
             <th>Even Odds <a href="https://codeforces.com/problemset/problem/318/A">[Link]</a></th>
             <td><a href="/src/codeforces/even odds.c">[Link]</a></td>
