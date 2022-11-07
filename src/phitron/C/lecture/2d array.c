@@ -1,16 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    int a[4][3], i,j, count=0;
-    a[4][3] = 2246;
-    for(i=0;i<=4; i++)
+    int row = 4, column = 3;
+    int a[row][column], i,j, count=0;
+ 
+    for(i=0;i<row; i++)
     {
-        for(j=0;j<=3;j++)
+        for(j=0;j<column;j++)
         {
-            // a[i][j] = 0;
-            count++;
-            printf("%d ->%d\n", a[i][j], count);
+            scanf("%d", &a[i][j]);
         }
+    }
+    for(i=0;i<row; i++)
+    {
+        for(j=0;j<column;j++)
+        {
+            printf("%d ", a[i][j]);
+        }
+        printf("\n");
     }
 
 }
