@@ -111,6 +111,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/way too long words.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>112A</th>
+            <th>Petya and Strings <a href="https://codeforces.com/problemset/problem/112/A">[Link]</a></th>
+            <td><a href="/src/codeforces/petya and strings.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>118A</th>
             <th>String Task <a href="https://codeforces.com/problemset/problem/118/A">[Link]</a></th>
             <td><a href="/src/codeforces/string task.c">[Link]</a></td>
