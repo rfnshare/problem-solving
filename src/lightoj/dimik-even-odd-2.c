@@ -1,14 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int T, i;
-    long long int N[101];
+    int T, i, k;
+    char N[101];
     scanf("%d", &T);
 
     for (i = 1; i <= T; i++)
     {
-        scanf("%d", &N);
-        if (N[0] % 2 == 1)
+        scanf("%s", &N);
+        k = strlen(N);
+        // printf("%d",N[k-1]);
+        if (N[k - 1] % 2 == 1)
         {
             printf("odd\n");
         }
