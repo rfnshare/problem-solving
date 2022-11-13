@@ -1,8 +1,8 @@
-// scanf()
-// getchar()
-// gets()
-// fgets()
-// fscanf()
+// scanf() normal input
+// getchar() for char input
+// gets() for string input 
+// fgets() for string input advanced 
+// fscanf() for file input
 #include <stdio.h>
 int main()
 {
