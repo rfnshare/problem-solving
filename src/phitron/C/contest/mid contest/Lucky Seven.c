@@ -2,7 +2,7 @@
 int main()
 {
     int n, i, j, length, flag = 0;
-    char Str[20];
+    char Str[200];
     scanf("%d", &n);
     if (0 < n)
     {
@@ -28,12 +28,11 @@ int main()
                 }
                 else
                 {
-                    for (j = 0; Str[j] != '\0'; ++j)
-                        ;
-                    if (7 < j)
+                   
+                    if (7 < length)
                     {
-                        j -= 2;
-                        printf("Case #2: %c%d%c\n", Str[0], j, Str[j + 1]);
+                        length -= 2;
+                        printf("Case #2: %c%d%c\n", Str[0], length, Str[length+1]);
                     }
                     else
                     {
