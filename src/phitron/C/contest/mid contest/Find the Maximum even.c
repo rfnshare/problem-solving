@@ -21,14 +21,27 @@ int main()
                 o_count++;
             }
         }
+        // printf("%d %d ", e_count,o_count);
         if (1 == e_count && 2 <= o_count)
         {
             for (i = 0; i < n; i++)
             {
                 if (arr[i] % 2 == 0)
                 {
-                    printf("%d", arr[i]);
+                    max = arr[i];
                 }
+                else if (arr[i] % 2 != 0)
+                {
+                    sum += arr[i];
+                }
+            }
+            if (max > sum)
+            {
+                printf("%d", max);
+            }
+            else
+            {
+                printf("%d", sum);
             }
         }
         else if (1 == o_count && 2 <= e_count)
@@ -164,6 +177,10 @@ int main()
         else if (arr[i + 1] % 2 == 0)
         {
             printf("%d", arr[i + 1]);
+        }
+        else if (arr[i] % 2 == 0)
+        {
+            printf("%d", arr[i]);
         }
     }
     else if (n == 1)
