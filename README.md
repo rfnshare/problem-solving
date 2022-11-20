@@ -160,6 +160,11 @@ A repository to contain my submissions in various online judges.
             <th>Wrong Subtraction <a href="https://codeforces.com/problemset/problem/977/A">[Link]</a></th>
             <td><a href="/src/codeforces/wrong_subtraction.c">[Link]</a></td>
         </tr>
+            <tr>
+            <th>1472A</th>
+            <th>Cards for Friends <a href="https://codeforces.com/contest/1472/problem/A">[Link]</a></th>
+            <td><a href="/src/codeforces/Cards for Friends.c">[Link]</a></td>
+        </tr>
         <tr>
             <th>1512A</th>
             <th>Spy Detected! <a href="https://codeforces.com/contest/1512/problem/A">[Link]</a></th>
