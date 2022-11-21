@@ -1,9 +1,16 @@
 #include <stdio.h>
+int fun(int x);
 int main()
 {
-    int a, b, i, j, k = 0, arr[100];
+    int a;
     scanf("%d", &a);
-    for (i = 0; i < a; i++)
+    int b = fun(a);
+    printf("Sum = %d", b);
+}
+int fun(int x)
+{
+    int i, j, k = 0, arr[100];
+    for (i = 0; i < x; i++)
     {
         scanf("%d", &arr[i]);
         k += arr[i] % 10;
@@ -13,5 +20,5 @@ int main()
         }
         k += arr[i];
     }
-    printf("Sum = %d", k);
+    return k;
 }
