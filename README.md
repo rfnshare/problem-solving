@@ -171,6 +171,11 @@ A repository to contain my submissions in various online judges.
             <td><a href="/src/codeforces/spy detected.c">[Link]</a></td>
         </tr>
         <tr>
+            <th>1709A</th>
+            <th>Three Doors <a href="https://codeforces.com/problemset/problem/1709/A">[Link]</a></th>
+            <td><a href="/src/codeforces/Three Doors.c">[Link]</a></td>
+        </tr>
+        <tr>
             <th>1676B</th>
             <th>Equal Candies <a href="https://codeforces.com/problemset/problem/1676/B">[Link]</a></th>
             <td><a href="/src/codeforces/Equal Candies.c">[Link]</a></td>
