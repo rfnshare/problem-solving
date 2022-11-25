@@ -1,8 +1,9 @@
 #include <stdio.h>
-int find_median(int arr[], int a);
+float find_median(int arr[], int a);
 int main()
 {
-    int a, b, i, j, k;
+    int a, b, i, k;
+    float j;
     scanf("%d", &a);
     int arr[a];
     for (i = 1; i <= a; i++)
@@ -10,17 +11,18 @@ int main()
         scanf("%d", &arr[i]);
     }
     j = find_median(arr, a);
-    printf("Median = %d", j);
+    printf("Median = %.2f", j);
 }
 
-int find_median(int arr[], int a)
+float find_median(int arr[], int a)
 {
-    int i, t, res;
+    int i, t;
+    float res;
     bubble_sort(arr, a);
     if (a % 2 == 0)
     {
         t = a / 2;
-        res = (arr[t] + arr[t + 1]) / 2;
+        res = (float)(arr[t] + arr[t + 1]) / 2;
         return res;
     }
     else
