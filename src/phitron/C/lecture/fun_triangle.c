@@ -8,7 +8,7 @@ int take_radius()
 }
 float calculate_area(int r)
 {
-    float res = calculate_area(r);
+    float res = r * r * 3.14159;
     printf("Area of the circle %f", res);
 }
 int main()
