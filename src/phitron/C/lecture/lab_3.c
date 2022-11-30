@@ -5,7 +5,6 @@ int main()
 {
     int a, b, i, j, k;
     scanf("%d", &a);
-
     if (check_prime(sum_of_digits(a)) == 1)
     {
         printf("YES");
@@ -32,7 +31,7 @@ int check_prime(int a)
     int i;
     for (i = 2; i < a; i++)
     {
-        if (a % i == 2)
+        if (a % i == 0)
         {
             return 0;
         }
