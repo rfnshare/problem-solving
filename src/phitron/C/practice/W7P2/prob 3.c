@@ -13,8 +13,9 @@ int main()
 }
 int arr_print(int arr[], n)
 {
-    for(i=0;i<n;i++)
+    int i;
+   for(i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
-    }
+    } 
 }
