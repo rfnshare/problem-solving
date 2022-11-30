@@ -4,15 +4,14 @@ int main()
 {
     int a, b, i, j, k;
     scanf("%d", &a);
-    recursion(a);
+    b = recursion(a);
+    printf("%d", b);
 }
 int recursion(int a)
 {
-    
     if (0<a)
     {
-        recursion(a-1);
-        printf("%d ",a);
+        
+        return a + recursion(a-1);
     }
-    
 }
