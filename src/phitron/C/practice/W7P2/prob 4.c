@@ -1,15 +1,15 @@
 #include <stdio.h>
 #define PI 3.1416
-int circle_area(int a);
+float circle_area(int a);
 int main()
 {
     int r;
     scanf("%d", &r);
-    printf("%d", circle_area(r));
+    printf("%f", circle_area(r));
 }
-int circle_area(int r)
+float circle_area(int r)
 {
-    int area;
+    float area;
     area = PI * r * r;
     return area;
 }
