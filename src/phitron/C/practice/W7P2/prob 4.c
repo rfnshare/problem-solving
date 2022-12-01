@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #define PI 3.1416
 int circle_area(int a);
 int main()
@@ -10,6 +10,6 @@ int main()
 int circle_area(int r)
 {
     int area;
-    area = PI*r*r;
+    area = PI * r * r;
     return area;
 }
