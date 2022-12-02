@@ -14,9 +14,6 @@ int main()
         scanf("%d", &arr1[i]);
         scanf("%d", &arr2[i]);
         swap(&arr[arr1[i]], &arr[arr2[i]]);
-        // arr3[count] = arr1[i];
-        // arr3[count + 1] = arr2[i];
-        // count += 2;
     }
     for (i = 1; i <= n; i++)
     {
