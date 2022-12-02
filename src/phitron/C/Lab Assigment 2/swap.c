@@ -2,7 +2,7 @@
 int swap(int *a, int *b);
 int main()
 {
-    int n, i, arr[100], q, j, arr1[100], arr2[100], arr3[100], count = 0;
+    int n, i, arr[100], q, j, arr1[100], arr2[100];
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
     {
