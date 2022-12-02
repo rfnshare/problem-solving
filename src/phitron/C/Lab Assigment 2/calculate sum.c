@@ -1,21 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a,i,count=0,sum=0;
+    int a, i, count = 0, sum1 = 0, sum2 = 0;
     scanf("%d", &a);
-    for(i=1;i<=a;i++)
+    for (i = 1; i <= a; i++)
     {
-        if(count==3)
-        {
-            while(0<count)
-            {
-                sum-=i;
-                i++;
-                count--;
-            }
-        }
-        sum+=i;
+        sum1 += i;
         count++;
+        if (count == 3)
+        {
+            i += 3;
+            count = 0;
+        }
     }
-    printf("%d",sum);
+    count = 0;
+    for (i = 4; i <= a; i++)
+    {
+        sum2 += i;
+        count++;
+        if (count == 3)
+        {
+            i += 3;
+            count = 0;
+        }
+    }
+    printf("%d", sum1 - sum2);
 }
