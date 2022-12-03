@@ -6,7 +6,8 @@ int main()
     scanf("%d", &n);
     int *ptr;
 
-    ptr = (int *)malloc(n * sizeof(int));
+    // ptr = (int *)malloc(n * sizeof(int));
+    ptr = (int *)calloc(n, sizeof(int)); // better version of malloc
 
     for (i = 0; i < n; i++)
     {
@@ -16,4 +17,5 @@ int main()
     {
         printf("%d ", *(ptr + i));
     }
+    free(ptr);
 }
