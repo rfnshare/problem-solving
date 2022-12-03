@@ -6,7 +6,7 @@ int main()
     scanf("%d", &n);
     int *ptr;
 
-    ptr = (int)malloc(n * sizeof(int));
+    ptr = (int *)malloc(n * sizeof(int));
 
     for (i = 0; i < n; i++)
     {
