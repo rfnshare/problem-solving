@@ -17,5 +17,6 @@ int main()
     {
         printf("%d ", *(ptr + i));
     }
+    ptr = realloc(ptr, (n + 5, sizeof(int)));
     free(ptr);
 }
