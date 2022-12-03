@@ -3,11 +3,24 @@ int main()
 {
     int a, b, i, j, k;
     a = 5;
-    printf("Before Change %d\n", a);
-    func(&a);
-    printf("After Change %d", a);
+    b = 12;
+    int large, small;
+    func(a, b, &large, &small);
+    printf("Large %d\n", large);
+    printf("Small %d", small);
 }
-void func(int *x)
+void func(int a, int b, int *x, int *y)
 {
-    *x = 17;
+    *x = a>b?a:b;
+    *y = a<b?a:b;
+    // if (a > b)
+    // {
+    //     *x = a;
+    //     *y = b;
+    // }
+    // else
+    // {
+    //     *x = b;
+    //     *y = a;
+    // }
 }
