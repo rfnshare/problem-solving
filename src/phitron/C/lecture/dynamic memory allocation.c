@@ -9,14 +9,22 @@ int main()
     // ptr = (int *)malloc(n * sizeof(int));
     ptr = (int *)calloc(n, sizeof(int)); // better version of malloc
 
-    for (i = 0; i < n; i++)
+    if (ptr == NULL)
     {
-        scanf("%d", (ptr + i));
+        printf("Memory Allocation Failed\n");
     }
-    for (i = 0; i < n; i++)
+    else
     {
-        printf("%d ", *(ptr + i));
+        for (i = 0; i < n; i++)
+        {
+            scanf("%d", (ptr + i));
+        }
+        for (i = 0; i < n; i++)
+        {
+            printf("%d ", *(ptr + i));
+        }
     }
+
     ptr = realloc(ptr, (n + 5, sizeof(int)));
     free(ptr);
 }
