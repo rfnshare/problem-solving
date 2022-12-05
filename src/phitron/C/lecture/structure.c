@@ -9,10 +9,13 @@ struct Student
 int main()
 {
     int a, b, i, j, k;
-    struct Student s1 = {12, 24, 75.6, "Faroque"};
-    strcpy(s1.name, "New Name");
+    // struct Student s1 = {12, 24, 75.6, "Faroque"};
+    // strcpy(s1.name, "New Name");
+    struct Student s1;
+    scanf("%d%d%f%s", &s1.roll, &s1.age, &s1.weight, &s1.name);
     printf("Roll = %d\nAge = %d\nWeight = %0.2f\nName = %s\n\n", s1.roll, s1.age, s1.weight, s1.name);
-    struct Student s2 = {121, 241, 751.6, "Faroque Two"};
+    // struct Student s2 = {121, 241, 751.6, "Faroque Two"};
+    struct Student s2 = {.name = "Raju", .roll = 59, .age = 26, .weight = 70}; //designation initilize
     printf("Roll = %d\nAge = %d\nWeight = %0.2f\nName = %s", s2.roll, s2.age, s2.weight, s2.name);
     // s.roll = 45;
     // s.age = 20;
