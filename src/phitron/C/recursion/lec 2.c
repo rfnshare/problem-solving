@@ -1,9 +1,9 @@
-// print from 1 to n
+// print from n to 1
 #include <stdio.h>
 void fun(int a);
 int main()
 {
-    int a, b, i = 1, j, k;
+    int a;
     scanf("%d", &a);
     fun(a);
 }
