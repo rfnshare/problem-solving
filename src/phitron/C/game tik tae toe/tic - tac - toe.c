@@ -1,3 +1,8 @@
+// Author: Abdullah Al Faroque
+// Date: 12/15/2022
+/* Tic - Tac - Toe Game */
+// Version 1.0
+
 #include <stdio.h>
 #include <stdbool.h>
 void print_grid(int arr[][4]);
@@ -16,6 +21,8 @@ int main()
     bool p1 = true;
     bool p2 = false;
     int r, c;
+    printf("Author: Abdullah Al Faroque\n");
+    printf("Version 1.0\n");
     while (true)
     {
         print_grid(arr);
@@ -66,6 +73,7 @@ int main()
         //     break;
         // }
     }
+    system("PAUSE");
     return 0;
 }
 int result(int arr[][4])
