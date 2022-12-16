@@ -21,11 +21,7 @@ int main()
     {
         printf("%d ", arr1[i]-arr2[i]);
     }
-    // printf("\n");
-    // for (i = 0; i < n; i++)
-    // {
-    //     printf("%d ", arr2[i]);
-    // }
+
 }
 int asc_sort(int arr[], int n)
 {
@@ -44,6 +40,7 @@ int asc_sort(int arr[], int n)
             }
         }
     }
+    return arr;
 }
 int desc_sort(int arr[], int n)
 {
@@ -62,6 +59,7 @@ int desc_sort(int arr[], int n)
             }
         }
     }
+    return arr;
 }
 void swap(int *p, int* q)
 {
