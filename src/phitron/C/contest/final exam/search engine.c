@@ -1,5 +1,5 @@
 #include <stdio.h>
-int solve(int a);
+void solve(int a);
 int main()
 {
     int i, t;
@@ -9,7 +9,7 @@ int main()
         solve(i);
     }
 }
-int solve(int a)
+void solve(int a)
 {
     int size, find, i, flag = 0;
     scanf("%d", &size);
