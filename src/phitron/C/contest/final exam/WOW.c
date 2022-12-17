@@ -1,37 +1,36 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int n, i, j, k, flag = 0;
-    scanf("%d",&n);
-    for(i=0;i<n*2;i++)
+    int i, j, rows, star = 0;
+    printf("Enter the number of rows\n");
+    scanf("%d", &rows);
+
+    /* printing one row in every iteration */
+    for (i = 0; i < rows; i++)
     {
-        for(k=i;k<n*2;k++)
+        /* Printing spaces */
+        for (j = 0; j < (rows - i - 1); j++)
         {
             printf(" ");
         }
-        for(j=0;j<=i;j++)
+        /* Printing stars */
+        while (star != (2 * i + 1))
         {
-            if (flag==0)
+            if (i == 0 || i == 2 || i == 4 || i == 6 || i == 8 || i == 10 || i == 12 || i == 14 || i == 16 || i == 18)
             {
-                printf("^ ");
-                if (j<i)
-                {
-                    flag = 1;
-                }
-                
+                printf("^");
             }
             else
             {
-                printf("* ");
-                if (j<i)
-                {
-                    flag = 0;
-                }
+                printf("*");
             }
-            
+            star++;
+            ;
         }
-        i+=1;
+        star = 0;
+        /* move to next row */
         printf("\n");
-
     }
+    return 0;
 }
