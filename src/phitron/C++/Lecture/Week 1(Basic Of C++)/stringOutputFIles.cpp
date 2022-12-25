@@ -14,7 +14,7 @@ int main()
     double y,z;
     in1>>x>>y>>z;
     cout<<x<<" "<<y<<" "<<z;
-
+    in1.close();
     // of<<"Hello"<<endl;
     // of2<<"Hello Two"<<endl;
     return 0;
