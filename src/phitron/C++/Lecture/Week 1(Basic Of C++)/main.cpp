@@ -10,7 +10,8 @@ int main()
     string s;
     // cin>>x>>ch>>f>>d;
     // cout<<x<<" "<<ch<<" "<<f<<" "<<d<<endl;
-    cin >>s;
+    // cin >>s;
+    getline(cin, s);
     cout<<s<<endl;
     return 0;
 }
