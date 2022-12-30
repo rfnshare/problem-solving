@@ -13,7 +13,6 @@ public:
         cout << name << " " << student_id << " " << age << " " << f_name << " " << m_name << endl;
     }
 };
-
 class Rectangle
 {
 public:
