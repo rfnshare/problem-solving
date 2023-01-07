@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     string s;
-    int count = 1;
+    int count = 0;
     vector<int> a;
     cin >> s;
     for (int i = 0; i < s.size(); i++)
@@ -16,8 +16,9 @@ int main()
                 count++;
         }
         a.push_back(count);
-        count = 1;
+        count = 0;
     }
+
     // Find the max element
-    cout << *max_element(a.begin(), a.end());
+    cout << *max_element(a.begin(), a.end()) + 1;
 }
