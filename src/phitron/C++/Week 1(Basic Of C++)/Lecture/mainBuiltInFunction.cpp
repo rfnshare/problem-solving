@@ -18,6 +18,7 @@ int main()
     }
     // let's sort the vector list
     // sort(a.begin(), a.end());
+    // reverse(a.begin(), a.end());
     sort(a.begin() + 1, a.begin() + 2 + 1);
     cout << "\nAfter Sorting" << endl;
     for (int i = 0; i < a.size(); i++)
