@@ -77,6 +77,7 @@ int main()
     Student *s = new Student("Faroque", 10, 26, "Delwer", "Mother");
     s->print_info();
     (*s).print_info();
+    delete s;
     // Person p1("Abdullah Al Faroque", "Delwer Hossain", "Farida Akter");
     // p1.print_info();
     // Student s("Faroque", 10, 26, "Delwer", "Mother");
