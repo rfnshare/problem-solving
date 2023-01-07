@@ -69,14 +69,16 @@ public:
         if (mother != NULL)
         {
             delete mother;
-
         }
     }
 };
 int main()
 {
-    Person p1("Abdullah Al Faroque", "Delwer Hossain", "Farida Akter");
-    p1.print_info();
+    Student *s = new Student("Faroque", 10, 26, "Delwer", "Mother");
+    s->print_info();
+    (*s).print_info();
+    // Person p1("Abdullah Al Faroque", "Delwer Hossain", "Farida Akter");
+    // p1.print_info();
     // Student s("Faroque", 10, 26, "Delwer", "Mother");
     // s.print_info();
     // Student s1;
