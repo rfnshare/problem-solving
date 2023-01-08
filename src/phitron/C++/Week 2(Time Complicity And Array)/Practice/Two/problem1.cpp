@@ -4,17 +4,17 @@ int main()
 {
     /*
     1. 
-    Time -> O(n)
+    Time -> O(1) 
     Memory -> O(1)
     2. 
-    Time -> O(n)
+    Time -> O(n^2)
     Memory -> O(1)
     3. 
-    Time -> O(n)
+    Time -> O(n^3)
     Memory -> O(1)
     4. 
     Time -> O(n) or O(n^2/2)
-    Memory -> O(1)
+    Memory -> O(1)  //confused
     5. 
     Time -> O(n^2)
     Memory -> O(1)
