@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
-variable complexity big o(n^2)
+Time Complexity -> O(n^2)
+Memory Complexity -> O(n)
 */
 int main()
 {

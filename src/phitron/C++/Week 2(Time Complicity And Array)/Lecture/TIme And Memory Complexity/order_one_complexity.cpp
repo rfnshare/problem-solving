@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
-Time Complexity O(1)
-Space Complexity O(1)
-constant complexity big o(1)
+Time Complexity -> O(1)
+Memory Complexity -> O(1)
 */
 int main()
 {

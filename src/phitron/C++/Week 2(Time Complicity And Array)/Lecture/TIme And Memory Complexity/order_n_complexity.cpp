@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
+time complexity big o(n) [o(n+1+n+1) = o(2*n) = o(c*n) = o(n)]
+
 Time Complexity O(n)
 Space Complexity O(n)
-variable complexity big o(n) [o(n+1+n+1) = o(2*n) = o(c*n) = o(n)]
 */
 int main()
 {

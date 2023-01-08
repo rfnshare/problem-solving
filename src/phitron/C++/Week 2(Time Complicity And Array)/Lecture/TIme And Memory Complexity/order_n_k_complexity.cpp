@@ -2,7 +2,7 @@
 using namespace std;
 /*
 Time complexity o((n^2/2)) = o(n^2)
-Memory complexity big o(n^2)
+Memory complexity big o(n)
 */
 int main()
 {
