@@ -30,6 +30,14 @@ public:
         cap = 1;
         sz = 0;
     }
+    Array(int x)
+    {
+        arr = new int[x];
+    }
+    void add(int pos, int x)
+    {
+        arr[pos] = x;
+    }
     // Time Complexity O(n logn)
     void push_back(int x)
     {
@@ -78,10 +86,15 @@ public:
         }
         return arr[indx];
     }
+    ~Array()
+    {
+        delete[] arr;
+    }
 };
 int main()
 {
     Array a;
+    // a.add(0, 10);
     a.push_back(10);
     a.push_back(20);
     a.push_back(30);
