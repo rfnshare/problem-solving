@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
-Time Complexity ->Mine O(n), O(n*log n), Pos O(n(log(logn))) [when inside iteration i*x<=n like this] 
+Time Complexity ->Mine O(n^2), O(n*log n), Pos O(n(log(logn))) [when inside iteration i*x<=n like this] 
 Memory Complexity -> O(n)
 */
 int is_prime(int x)
