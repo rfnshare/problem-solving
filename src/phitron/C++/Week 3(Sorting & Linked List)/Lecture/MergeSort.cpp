@@ -10,7 +10,7 @@ vector<int> merge_sort(vector<int> a)
     int mid = a.size() / 2;
     vector<int> b;
     vector<int> c;
-    for (int i = 0; i < mid ; i++)
+    for (int i = 0; i < mid; i++)
     {
         b.push_back(a[i]);
     }
@@ -52,7 +52,7 @@ vector<int> merge_sort(vector<int> a)
 int main()
 {
     int n;
-    cin>>n;
+    cin >> n;
     vector<int> q(n);
     for (int i = 0; i < n; i++)
     {
