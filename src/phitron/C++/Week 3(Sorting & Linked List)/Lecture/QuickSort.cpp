@@ -10,8 +10,13 @@ vector<int> quick_sort(vector<int> a)
     int pivot = a.size() / 2;
     vector<int> b;
     vector<int> c;
+    vector<int> d;
     for (int i = 0; i < a.size(); i++)
     {
+        if (a[i] == a[pivot])
+        {
+            d.push_back(a[pivot]);
+        }
         if (a[i] < a[pivot])
         {
             b.push_back(a[i]);
@@ -20,8 +25,13 @@ vector<int> quick_sort(vector<int> a)
         {
             c.push_back(a[i]);
         }
+        // else
+        // {
+        //     c.push_back(a[i]);
+        // }
     }
-    //b + a[pivot] + c
+
+    // b + a[pivot] + c
     vector<int> sorted_b = quick_sort(b);
     vector<int> sorted_c = quick_sort(c);
     vector<int> sorted_a;
@@ -32,13 +42,24 @@ vector<int> quick_sort(vector<int> a)
     }
     else
     {
-        sorted_a.push_back(sorted_b[0]);
-        sorted_a.push_back(a[pivot]);
+        for (int i = 0; i < sorted_b.size(); i++)
+        {
+            sorted_a.push_back(sorted_b[i]);
+        }
+        for (int i = 0; i < d.size(); i++)
+        {
+            sorted_a.push_back(d[i]);
+        }
+        // sorted_a.push_back(a[pivot]);
     }
 
     if (sorted_c.size() != 0)
     {
-        sorted_a.push_back(sorted_c[0]);
+
+        for (int i = 0; i < sorted_c.size(); i++)
+        {
+            sorted_a.push_back(sorted_c[i]);
+        }
     }
 
     return sorted_a;
