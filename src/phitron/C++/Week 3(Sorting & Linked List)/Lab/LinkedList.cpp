@@ -44,10 +44,19 @@ public:
     // print linked list
     void Traverse()
     {
+        node* a = head;
+        
+        while (a!=NULL)
+        {
+            cout<<a->data<<" ";
+            a = a->nxt;
+        }
+        
     }
     // search single value
     void searchDistinctValue(int value)
     {
+        
     }
     // search all value based on input
     void SearchAllValue(int value)
