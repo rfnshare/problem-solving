@@ -20,9 +20,26 @@ public:
     {
         head = NULL;
     }
+    // creates a new node
+    node *CreateNewNode(int value)
+    {
+        node *newnode = new node;
+        newnode->data = value;
+        newnode->nxt = NULL;
+        return newnode;
+    }
     // add a value front of linked list
     void InsertAtHead(int value)
     {
+        node *a = CreateNewNode(value);
+        if (head == NULL)
+        {
+            head = a;
+            return;
+        }
+        // if head!=NULL
+        a->nxt = head;
+        head = a;
     }
     // print linked list
     void Traverse()
