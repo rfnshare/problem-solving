@@ -44,23 +44,44 @@ public:
     // print linked list
     void Traverse()
     {
-        node* a = head;
-        
-        while (a!=NULL)
+        node *a = head;
+
+        while (a != NULL)
         {
-            cout<<a->data<<" ";
+            cout << a->data << " ";
             a = a->nxt;
         }
-        
     }
     // search single value
-    void searchDistinctValue(int value)
+    int searchDistinctValue(int value)
     {
-        
+        node *a = head;
+        int indx = 0;
+        while (a != NULL)
+        {
+            if (value == a->data)
+            {
+                return indx;
+            }
+            a = a->nxt;
+            indx++;
+        }
+        return -1;
     }
     // search all value based on input
     void SearchAllValue(int value)
     {
+        node *a = head;
+        int indx = 0;
+        while (a != NULL)
+        {
+            if (value == a->data)
+            {
+                cout << "Index: " << indx << "->" << a->data << endl;
+            }
+            a = a->nxt;
+            indx++;
+        }
     }
 };
 int main()
@@ -70,7 +91,7 @@ int main()
     l.InsertAtHead(30);
     l.InsertAtHead(20);
     l.InsertAtHead(30);
-    l.Traverse();
-    l.searchDistinctValue(30);
+    // l.Traverse();
+    // cout<<l.searchDistinctValue(10)<<endl;
     l.SearchAllValue(30);
 }
