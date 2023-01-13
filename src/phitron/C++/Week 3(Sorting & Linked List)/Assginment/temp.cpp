@@ -9,17 +9,4 @@ int main()
     {
         cin >> a[i];
     }
-    // for (int i = 0; i < pivot; i++)
-    // {
-    //     b.push_back(a[i]);
-    // }
-    // for (int i = pivot + 1; i < a.size(); i++)
-    // {
-    //     c.push_back(a[i]);
-    // }
-    // if (i == pivot)
-    //     {
-    //         continue;
-    //     }
-    //     else if ()
 }
