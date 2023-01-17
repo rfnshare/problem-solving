@@ -17,27 +17,32 @@ int main()
         cin >> b[i];
     }
     vector<int> res;
+    int j;
     for (int i = 0; i < x; i++)
     {
-        for (int j = 0; j < y; j++)
+        for (j = 0; j < y; j++)
         {
-            // cout << a[i] << " ";
-            // cout << b[j] << " ";
-            // cout << "\n";
             if (a[i] == b[j])
             {
                 res.push_back(a[i]);
+                b[j] = 0;
+                break;
             }
-            else
-            {
-                res.push_back(a[i]);
-                res.push_back(b[i]);
-            }
+
+        }
+        if(j==y)
+        {
+            res.push_back(a[i]);
         }
     }
-    sort(res.begin(),res.end());
-    vector<int>::iterator ip;
-    ip = unique(res.begin(),res.end());
+    for (int i = 0; i < y; i++)
+    {
+        if(b[i]!=0)
+        {
+            res.push_back(b[i]);
+        }
+    }
+    
     for (int i = 0; i < res.size(); i++)
     {
         cout << res[i] << " ";
