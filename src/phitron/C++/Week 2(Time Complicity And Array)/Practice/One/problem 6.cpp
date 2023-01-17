@@ -28,32 +28,37 @@ public:
     {
         return 6 * length * length;
     }
-    bool operator<(Cuboid s)
-    {
-        getVolume()<s.getVolume();
-    }
+    // bool operator<(Cuboid s)
+    // {
+    //     return getVolume()<s.getVolume();
+    // }
 };
+bool comp(Cuboid a, Cuboid b)
+{
+    //
+    return a.getVolume() < b.getVolume();
+}
 int main()
 {
     vector<Cuboid> s(5);
-    s[0] = Cuboid(1,12,3);
-    s[1] = Cuboid(1,2,3);
-    s[2] = Cuboid(1,12,32);
-    s[3] = Cuboid(11,12,3);
-    s[4] = Cuboid(1,1,2);
+    s[0] = Cuboid(1, 12, 3);
+    s[1] = Cuboid(1, 2, 3);
+    s[2] = Cuboid(1, 12, 32);
+    s[3] = Cuboid(11, 12, 3);
+    s[4] = Cuboid(1, 1, 2);
     // for (int i = 1; i <= 5; i++)
     // {
     //     s[i] = Cuboid(i, 30-i, i);
     // }
     for (int i = 0; i < 5; i++)
     {
-        cout<<"Volume & SurfaceArea of "<<i<<": "<<s[i].getVolume()<<" "<<s[i].getSurfaceArea()<<endl;
+        cout << "Volume & SurfaceArea of " << i << ": " << s[i].getVolume() << " " << s[i].getSurfaceArea() << endl;
     }
-    sort(s.begin(),s.end());
+    sort(s.begin(), s.end(), comp);
     cout << "After Sorting...." << endl;
 
     for (int i = 0; i < s.size(); i++)
     {
-        cout<<"Volume of "<<i<<": "<<s[i].getVolume()<<" "<<s[i].getSurfaceArea()<<endl;
+        cout << "Volume of " << i << ": " << s[i].getVolume() << " " << s[i].getSurfaceArea() << endl;
     }
 }
